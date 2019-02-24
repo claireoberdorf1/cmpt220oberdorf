@@ -11,7 +11,7 @@ public class Problem2 {
 			
 			//Determines if divisible by 5 or 7
 			if((i%5==0 && i%7!=0) || (i%5!=0 && i%7==0)) {
-				System.out.println(i+" ");
+				System.out.print(i+" "); // JA
 				count++;
 			}
 			if(count==10) {
