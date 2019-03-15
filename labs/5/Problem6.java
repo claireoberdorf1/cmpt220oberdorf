@@ -58,7 +58,7 @@ public class Problem6 {
 		
 		//Calculates the sum of the column
 		for(i=0; i<array.length; i++) {
-			sum += array[i][0];
+			sum += array[i][column]; // JA
 		}
 		//Returns the average
 		return sum/array.length;
