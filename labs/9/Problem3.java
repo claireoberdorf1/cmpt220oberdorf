@@ -36,7 +36,7 @@ public class Problem3 {
 				}
 			}
 	   }
-		
+	// JA: Which action will throw this exception?
 	   catch(NumberFormatException e){
 	       throw new NumberFormatException("Invalid binary number");
 	   }
