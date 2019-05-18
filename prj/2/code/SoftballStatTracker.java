@@ -53,7 +53,8 @@ public class SoftballStatTracker {
 		players[playerCounter++] = player;
 	}
 	
-	Fielding(){
+	// JA: These should not be here. They belong in each one of the classes
+/* 	Fielding(){
 		
 	}
 	
@@ -113,6 +114,6 @@ public class SoftballStatTracker {
 		this.saveOpportunites = newSaveOpportunites;
 		this.wins = newWins;
 		this.hitsAgainst = newHitsAgainst;
-	}
+	} */
 	
 }

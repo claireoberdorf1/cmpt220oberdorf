@@ -11,16 +11,17 @@ public class TestSoftballStatTracker {
 		Scanner scan = new Scanner(System.in);
 		
 		//set constant variables
-		String gameendTime = null;
+		Date gameendTime = null;
 		String gamelocation = null;
-		String gamestartTime = null;
+		Date gamestartTime = null;
 		
 		
-		SoftballStatTracker SST = new SoftballStatTracker(gameendTime, gamelocation, gamestartTime);
+		SoftballStatTracker SST = new SoftballStatTracker(gamestartTime,gameendTime, gamelocation);
 		Player newPlayer = new Player();
 		
 		//prompt user for start time
 		System.out.println("Set Start Time: ");
+		// JA: You have to parse this date
 		SST.startTime = scan.nextLine().toString();
 		
 		//prompt user for game location

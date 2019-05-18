@@ -14,7 +14,7 @@ public class Fielding {
 	
 	Fielding(int newAssists, int errors, int newPutOuts, double newFieldingPercentage, int newInningsPlayed, int newTotalChances){
 		this.assists = newAssists;
-		this.errors = newErrors
+		this.errors = errors;
 		this.putOuts = newPutOuts;
 		this.fieldingPercentage = newFieldingPercentage;
 		this.inningsPlayed = newInningsPlayed;
